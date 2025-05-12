@@ -1,0 +1,201 @@
+body {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 150px;
+    height: 150px;
+    padding: 50px;    border-radius: 25px;
+    background-color: white;
+    box-shadow: 10px 20px 20px black;
+}
+
+.container > h2 {
+    font-size: medium;
+}
+
+.form-group > label {
+    display: block;
+    text-align: left;
+}
+
+#username {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    padding: 3px;
+    margin: 5px;
+    width: 150px;
+    height: auto;
+}
+
+#password {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    padding: 3px;
+    margin: 5px;
+    width: 150px;
+    height: auto;
+}
+
+.container > form > button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    padding: 3px;
+    margin: 5px;
+    width: 150px;
+    height: auto;
+    background-color: #007DFF;
+    color: white;
+    border: 5px solid white;
+    border-radius: 10px ;
+}
+
+.container > form > button:hover {
+    transition-duration: .5s;
+    width: 175px;
+    height: 30px;
+    background-color: blue;
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: beige;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .container {
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 300px;
+        height: 300px;
+        padding: 50px;
+        border-radius: 25px;
+        background-color: white;
+    }
+
+    .container > h2 {
+        font-size: larger;
+    }
+
+    .form-group > label {
+        display: block;
+        text-align: left;
+    }
+    
+    #username {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: large;
+        padding: 10px;
+        margin: 10px;
+        width: 200px;
+        height: auto;
+    }
+    
+    #password {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: large;
+        padding: 10px;
+        margin: 10px;
+        width: 200px;
+        height: auto;
+    }
+    
+    .container > form > button {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: large;
+        padding: 10px;
+        margin: 10px;
+        width: 200px;
+        height: auto;
+        background-color: #007DFF;
+        color: white;
+        border: 5px solid white;
+        border-radius: 10px ;
+    }
+    
+    .container > form > button:hover {
+        transition-duration: .5s;
+        width: 250px;
+        height: 50px;
+        background-color: blue;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        background-color: beige;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .container {
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 300px;
+        height: 300px;
+        padding: 50px;
+        border-radius: 25px;
+        background-color: white;
+    }
+    
+    .container > h2 {
+        font-size: xx-large;
+    }
+
+    .form-group > label {
+        display: block;
+        text-align: left;
+    }
+    
+    #username {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: large;
+        padding: 10px;
+        margin: 10px;
+        width: 200px;
+        height: auto;
+    }
+    
+    #password {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: large;
+        padding: 10px;
+        margin: 10px;
+        width: 200px;
+        height: auto;
+    }
+    
+    .container > form > button {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: large;
+        padding: 10px;
+        margin: 10px;
+        width: 200px;
+        height: auto;
+        background-color: #007DFF;
+        color: white;
+        border: 5px solid white;
+        border-radius: 10px ;
+    }
+    
+    .container > form > button:hover {
+        transition-duration: .5s;
+        width: 250px;
+        height: 50px;
+        background-color: blue;
+    }
+}
